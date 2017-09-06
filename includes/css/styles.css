@@ -1,0 +1,148 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+#features{
+   text-align:center;
+}
+#features img{
+   margin:0 0 20px;
+}
+#alig{text-align:center;
+      
+}
+#alig1{text-align:center;}
+.rose{color:red;text-align:left;margin-left:30px;}
+.awa{margin-top:40px;}
+.unstyled{list-style-type:none;}
+#alig3{text-align:center;}
+#alig4{text-align:center;}
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+body{
+   -webkit-font-smoothing:antialised;
+    text-rendering:optimizeligibility;
+}
+.well .page-header{
+   margin-top:0;
+}
+.well .page-header h1{
+   margin-top:0;
+}
+.carouse{
+   margin-bottom:-50px;
+}
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   #searchInput{
+      width:200px;
+   }
+   .navbar-brand{
+      padding:13px 15px;
+   }
+   .clrchn{
+      background:black;
+   }
+   #moreInfo h3{
+      text-transform:uppercase;
+    }
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+#myCarousel{margin-top:60px;}
+
+.carousel-caption{font-size:24px;}
+.carousel-caption h4{font-size:32px;}
+#myCarousel .item{height:400px;}
+#slide1{
+   background:url('../../images/kid.jpg')top left no-repeat;
+}
+#slide2{
+   background:url('../../images/kid1.jpg')top left no-repeat;
+}
+#slide3{
+   background:url('../../images/kid2.jpg')top left no-repeat;
+}
+.col2{background:yellow;outline-offset:1px }
+.col1{background:lightgreen;outline-offset:1px }
+.col3{background:#e3e3e3;outline-offset: 1px}
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+.well{
+   margin:20px 0;
+}
+h1{color:red;}
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+   #myCarousel .item{height:310px;}
+#slide1{
+   background:url('../../images/kid.jpg')top left no-repeat;
+}
+#slide2{
+   background:url('../../images/kid1.jpg')top left no-repeat;
+}
+#slide3{
+   background:url('../../images/kid2.jpg')top left no-repeat;
+}
+.carousal-caption{
+   font-size:16px;
+}
+.carousal-caption h4{
+   font-size:24px;
+}
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+   #myCarousel .item{height:310px;}
+#slide1{
+   background:url('../../images/kid.jpg')top left no-repeat;
+}
+#slide2{
+   background:url('../../images/kid1.jpg')top left no-repeat;
+}
+#slide3{
+   background:url('../../images/kid2.jpg')top left no-repeat;
+}
+.carousal-caption{
+   font-size:16px;
+}
+.carousal-caption h4{
+   font-size:24px;
+}
+	
+}
